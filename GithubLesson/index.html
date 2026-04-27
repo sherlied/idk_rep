@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration</title>
+<style>
+body {
+    background-color: rgba(230, 230, 230, 0.7);
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;               
+}
+
+.box {
+    width: 450px;
+    height: 700px; 
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.box h2 {
+    margin-bottom: 20px;
+}
+
+.box input {
+    width: 65%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.box label, select {
+    align-self: flex-start;
+    margin-left: 20%;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: auto;
+    width: 80%;
+    padding: 10px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+<form action="" method="post">
+    <div class="box">
+        <h2>Реєстрація</h2>
+        <label>Ім`я</label>
+        <input type="text" required>
+        <label>Email</label>
+        <input type="email" required>
+        <label>Пароль</label>
+        <input type="password" required>
+        <label>Рівень</label>
+        <input type="range">
+        <label>Клас:</label>
+        <select>
+            <option value="warrior">Воїн</option>
+            <option value="archer">Лучник</option>
+            <option value="mage">Маг</option>
+            <option value="healer">Хіл</option>
+        </select>
+        <label><input type="checkbox"> Навички</label>
+        <label><input type="checkbox"> Сила</label>
+        <label><input type="checkbox"> Швидкість</label>
+        <label><input type="checkbox"> Інтелект</label>
+        <button type="submit">Register</button>
+    </div>
+</form>
+</body>
+</html>
+
+
+
+
+

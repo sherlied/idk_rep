@@ -1,0 +1,21 @@
+.ex {
+            margin: 0;
+            width: 350px;
+            height: 600px;
+            border: 3px solid black;
+            position: relative;
+            display: flex;
+            border-radius: 30px;
+        }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

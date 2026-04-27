@@ -1,0 +1,33 @@
+body { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+table,
+th,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    border-collapse: collapse;
+    padding:  5px 15px;
+}
+
+th { 
+    background-color: grey;
+}
+
+table { 
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+caption {
+    border: 2.5px solid black;
+    border-collapse: collapse;
+} 
