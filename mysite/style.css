@@ -9,7 +9,7 @@
   background-image: url("images/BG.jpg"); 
   background-size: cover;
   background-position: center;
-  min-height: 400px; 
+  min-height: 720px; 
 }
 
 header {
@@ -126,11 +126,23 @@ header {
     
 }
 
+.banner-title-box {
+    margin: 150px auto 75px auto;
+}
+
 .banner-title,
 .banner-sub-title 
 {  
     text-align: center;
     color: #FFFADA;
     font-family:Roboto;
+    margin-bottom: 35px;
 }
 
+.banner-title {
+    font-size: 72px;
+}
+
+.banner-sub-title {
+    font-size: 24px;
+}

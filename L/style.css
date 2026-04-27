@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dk-font-color: #1698AC;
+    --lt-font-color: #FFFFFF;
+}
+
+.fl {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: Laila;
+}
+.header {
+    justify-content: space-between;
+}
+
+.logo-box,
+.nav-box {
+    flex: 1;
+    
+}
+
+
+.nav-item {
+    border:  2px solid var(--dk-font-color);
+    border-radius: 20px;
+    flex: 1;
+    padding: 2px 28px;
+    text-align: center;
+}
+
+.nav-item:hover {
+    border:  2px solid var(--lt-font-color);
+    background-color: var(--dk-font-color);
+}
+
+.logo-text{
+    color: var(--dk-font-color);
+    font-size: 40px;
+    font-weight: 600;
+    position: relative; 
+    left: -40px;
+}
+
+.nav-list {
+    list-style: none;
+    gap: 15px;
+}
+
+.nav-link {
+    color: var(--dk-font-color);
+}
+
+
+@font-face {
+    font-family: "Laila";
+    src: url(font/Laila-Bold.ttf);
+}
