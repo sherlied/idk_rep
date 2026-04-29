@@ -15,24 +15,86 @@
 
 body {
     font-family: Laila;
+    padding: 200px;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url(images/1616611387_31-p-tekhnologichnii-fon-36\ 1.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .header {
+    display: flex;
     justify-content: space-between;
 }
 
 .logo-box,
 .nav-box {
     flex: 1;
-    
+    position: relative;
+    top: -165px;
+}
+
+.author-link-box {
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+}
+
+.author-link {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.author-link:hover {
+    background-color:#1698AC;
+    color: white;
+    background-size: 1000px;
+    border-radius: 8px;
 }
 
 
+.author-name {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 70px;
+    color: #1698AC;
+}
+
+.author-about {
+    font-size: 65px;
+    font-weight: 600;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.col {
+    flex :1;
+}
+
+.auto-banner {
+    width:100%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
 .nav-item {
     border:  2px solid var(--dk-font-color);
     border-radius: 20px;
     flex: 1;
     padding: 2px 28px;
     text-align: center;
+}
+
+.author-description {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 25px;
+    color: #FFFFFF;
 }
 
 .nav-item:hover {
@@ -54,6 +116,9 @@ body {
 }
 
 .nav-link {
+    font-size: 30px;
+    text-decoration: none;
+    white-space: nowrap;
     color: var(--dk-font-color);
 }
 
@@ -61,4 +126,39 @@ body {
 @font-face {
     font-family: "Laila";
     src: url(font/Laila-Bold.ttf);
+}
+
+
+@media (max-width: 768px) {
+    .nav-link {
+      font-size: 5px;
+    }
+
+    .nav-box {
+        display: none;
+    }
+
+}
+
+@media (min-width:768px) and  (max-width: 1024px) {
+    .nav-link {
+      font-size: 15px;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (min-width:1024px) and  (max-width: 1400px) {
+    .nav-link {
+      font-size: 25px;
+    }
+}
+
+@media (min-width:1400px){
+    .nav-link {
+      font-size: 35px;
+    }
 }

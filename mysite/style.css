@@ -49,6 +49,227 @@ header {
   height: 16px;
 }
 
+.Button-item {
+    font-size: 20px;
+    padding: 9px 13px;
+    background-color: #A0583C;
+    border-radius: 7px;
+    font-weight: 500;
+    width: 250px;
+    text-align: center;
+    color: white;
+    transition: transform 0.5s ease;
+    text-decoration: none;
+    font-family: "Poppins";
+}
+
+.Button-item:hover {
+    transform: scale(1.05);
+}
+
+main {
+    background-color: #FFFADA ;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.line-text {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  width: 95%;
+  font-size: 23px;
+  margin-top: 40px;
+  font-weight: 500;
+  color: #C08267;
+  gap: 10px;
+}
+
+.brands {
+    display: flex;
+    gap:20px;
+    justify-self: center;
+    align-items: center;
+}
+
+.line-text::before,
+.line-text::after {
+  content: "";
+  flex: 1;
+  height: 5px;
+  background: #A0583C;
+}
+
+.line-text-footer {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  width: 95%;
+  font-size: 23px;
+  margin-top: 40px;
+  font-weight: 500;
+  color: #FFFADA;
+  gap: 10px;
+}
+
+.line-text-footer::before,
+.line-text-footer::after {
+  content: "";
+  flex: 1;
+  height: 5px;
+  background: #FFFADA;
+}
+
+footer {
+    background-color: #C08267;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+  width: 95%;
+  height: 5px;
+  background: #FFFADA;
+  margin: 0 auto;
+}
+
+.card-box {
+    display: flex;
+    gap: 200px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fin {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    font-family: "Poppins";
+}
+
+.fin span {
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+hr {
+    height: 2px;
+}
+
+.logo { 
+    height: 25px;
+}
+
+.about-us{
+    display: flex;
+    gap: 100px;
+    font-family: "Poppins";
+    margin-top: 50px;
+}
+
+.d-box {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-box-img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+.d-box-img {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+
+.d-box-img h1,
+.d-box h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.d-box span {
+    font-size: 21px;
+}
+
+.card {
+  background-color: #C08267;
+  height: 450px;
+  
+  color: white;
+  font-family: "Poppins";
+  position: relative;
+  width: 250px; 
+  padding: 15px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.Price { 
+    align-items: start;
+    font-weight: 700;
+    font-size: 21px;
+    font-family: "Poppins";
+    position: absolute;
+    bottom:6%;
+    left: 10%;
+}
+
+.order-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins";
+
+    position: absolute;
+    bottom: 6%;
+    right: 6%;
+
+    background-color: #A0583C;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+}
+
+.Title {
+    display: flex;
+}
+
+.Description {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.4;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 25px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: center;
+}
+
 .btn {
     font-size: 12px;
     padding: 9px 13px;
